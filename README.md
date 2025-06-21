@@ -7,7 +7,7 @@ It displays random quotes in a responsive, transparent box over a colorful backg
 
 ## 🌐 Live Demo
 You can view the live project here:  
-[👉 Deployed on Netlify]  quote-genratr.netlify.app
+[👉 Deployed on Netlify]  ( quote-genratr.netlify.app )
 
 ---
 
