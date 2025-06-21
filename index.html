@@ -4,27 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="src/output.css" rel="stylesheet" />
-    <title>Quote genrator</title>
+    <title>Quote Generator</title>
   </head>
   <body
-    class="bg-gray-500 text-white flex items-center justify-center h-screen"
+    class="bg-gray-500 text-white flex items-center justify-center min-h-screen p-4"
   >
     <div
       id="quote-container"
-      class="flex flex-col items-center border-2 border-gray-700 rounded-lg p-8 w-auto shadow-lg"
+      class="flex flex-col items-center border-2 border-gray-700 rounded-lg p-6 sm:p-8 w-full max-w-md shadow-lg"
     >
-      <h1 class="font-bold text-3xl mb-2 font-serif">Quote Genrator</h1>
+      <h1 class="font-bold text-2xl sm:text-3xl mb-2 font-serif text-center">
+        Quote Generator
+      </h1>
+
       <div
         id="quote"
-        class="bg-gray-800 p-6 rounded-lg shadow-lg w-96 text-center my-4 mt-6"
+        class="bg-gray-800 p-4 sm:p-6 rounded-lg shadow-lg w-full text-center my-4 mt-6"
       >
-        <p class="text-xl font-serif">practice make man perfect</p>
+        <p class="text-lg sm:text-xl font-serif">practice makes man perfect</p>
       </div>
+
       <button
         id="quote-button"
-        class="bg-white p-2 rounded-3xl text-gray-800 m-4 hover:bg-gray-800 hover:text-white transition duration-300 ease-in-out"
+        class="bg-white px-4 py-2 rounded-3xl text-gray-800 mt-4 hover:bg-gray-800 hover:text-white transition duration-300 ease-in-out"
       >
-        Genrate Quote
+        Generate Quote
       </button>
     </div>
     <script src="src/script.js"></script>
